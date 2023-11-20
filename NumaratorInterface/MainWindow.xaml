@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Kullanıcı Girişi" Height="1080" Width="1920" WindowState="Maximized" Loaded="Window_Loaded" WindowStyle="None" Initialized="Window_Initialized" Closing="Window_Closing">
     <Grid Background="#888888">
-        <Border VerticalAlignment="Top" HorizontalAlignment="Stretch" BorderThickness="1" BorderBrush="White" Height="40" Background="LightGray">
+        <Border VerticalAlignment= "Top" HorizontalAlignment="Stretch" BorderThickness="1" BorderBrush="White" Height="40" Background="LightGray">
 
             <Grid>
                 <TextBlock Text="Kullanıcı Girişi Ekranı" FontSize="25" HorizontalAlignment="Center"  FontWeight="Bold"/>

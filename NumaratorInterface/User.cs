@@ -9,7 +9,7 @@ namespace NumaratorInterface
     public class User
     {
         // ===============================
-        // AUTHOR     : Sinan KAPOĞLU
+        // AUTHOR      : Sinan KAPOĞLU
         // UPDATE DATE     : 20.08.2016
         // PURPOSE     : Class for User type. (Admin, Operator, Service.) Encrypt Alg. for hiding the real password
         // ===============================   

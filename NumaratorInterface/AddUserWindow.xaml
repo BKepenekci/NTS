@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Yeni Kullanıcı Ekle" Height="350" Width="589" Background="#222222">
     <Grid>
-        <Border VerticalAlignment="Center" HorizontalAlignment="Center" Name="newUser" Width="400" Height="283" BorderThickness="5" BorderBrush="Orange" >
+        <Border  VerticalAlignment="Center" HorizontalAlignment="Center" Name="newUser" Width="400" Height="283" BorderThickness="5" BorderBrush="Orange" >
             <Grid>
                 <TextBlock Text="YENİ KULLANICI" Height="22" Foreground="White" FontSize="16" VerticalAlignment="Top" Width="125" Margin="0,30,0,0"/>
                 <TextBlock Text="Kullanıcı Adı :" Height="22" Width="110" Foreground="White" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,62,0,0" />

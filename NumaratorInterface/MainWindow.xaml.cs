@@ -17,7 +17,7 @@ using DALSA.SaperaLT.SapClassBasic;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Initial Window of the Program. User has to enter username and password to login.
     // ===============================

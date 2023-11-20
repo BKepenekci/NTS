@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Dialog Window that changes the User Type. User is Required to enter username and Password.
     // ===============================
