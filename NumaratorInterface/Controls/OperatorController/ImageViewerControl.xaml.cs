@@ -25,7 +25,7 @@ using System.Drawing;
 namespace NumaratorInterface.Controls.OperatorController
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : this UserControl is used for live view of sheets
     public partial class ImageViewerControl : System.Windows.Controls.UserControl

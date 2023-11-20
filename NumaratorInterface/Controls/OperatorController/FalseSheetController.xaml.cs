@@ -35,7 +35,7 @@ namespace NumaratorInterface.Controls.OperatorController
         {
             InitializeComponent();
             //initiliazation of FalseSheetList
-            FSL = new List<FalseSheet>();
+            FSL = new  List<FalseSheet>();
           
         }
       

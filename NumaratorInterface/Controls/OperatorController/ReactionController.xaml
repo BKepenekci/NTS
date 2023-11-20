@@ -11,7 +11,7 @@
                 <RowDefinition Height="40"/>
                 <RowDefinition />
             </Grid.RowDefinitions>
-            <TextBlock Text="HATA TEPKİ AYARLARI:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10,0,0" FontSize="20" TextDecorations="Underline" />
+            <TextBlock  Text="HATA TEPKİ AYARLARI:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10,0,0" FontSize="20" TextDecorations="Underline" />
             <Grid Grid.Row="1">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="87*"/>

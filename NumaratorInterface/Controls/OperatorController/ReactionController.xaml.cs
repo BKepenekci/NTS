@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace NumaratorInterface.Controls.OperatorController
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU 
+    // AUTHOR      : Sinan KAPOĞLU 
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Decides the signal type (warn or stop accoriding to error)
     // ===============================

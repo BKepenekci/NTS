@@ -10,7 +10,7 @@
              d:DesignHeight="950" d:DesignWidth="1500">
     <Border BorderThickness="1" BorderBrush="#777777" Background="#222222">
         <Grid>
-            <!--<TextBlock Text="TABAKA RESMİ" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,5" FontSize="20" TextDecorations="Underline" />-->
+            <!--<Text Block Text="TABAKA RESMİ" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,5" FontSize="20" TextDecorations="Underline" />-->
             <Border Margin="15,15,15,15" BorderThickness="1" BorderBrush="#777777" Background="#151515">
                 <Grid>
                     <!--<TextBlock Text="TABAKA RESMİ" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10" TextDecorations="Underline"/>-->

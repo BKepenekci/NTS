@@ -17,7 +17,7 @@ using System.Xml;
 namespace NumaratorInterface.Controls.OperatorController
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR     :  Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : this UserControl is used for inspection of FalseSheet. UserControl Has events for zoom and pan for better inspection
     // ===============================

@@ -10,7 +10,7 @@
             <TextBlock Text="HATALI TABAKA İNCELEME:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10" FontSize="20" TextDecorations="Underline" />
             <Border Margin="30,40,30,20" BorderThickness="1" BorderBrush="#777777" Background="#151515">
                 <Grid>
-                    <TextBlock Name="SheetNo" Text="HATALI TABAKA" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10" />
+                    <TextBlock  Name="SheetNo" Text="HATALI TABAKA" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10" />
                     <Button Name="SaveButton" HorizontalAlignment="Right" VerticalAlignment="Top" Width="150" Height="30" FontSize="18" Content="Resmi Kaydet" Margin="0,3,30,0" Click=" SaveCanvas"/>
                     <Border Margin="30,35,30,25" BorderThickness="1" BorderBrush="#777777" Background="Black">
                         <Grid Name="TemplateGrid" MouseMove="TemplateGrid_MouseMove" MouseWheel="TemplateGrid_MouseWheel" Background="Black" MouseLeave="TemplateGrid_MouseLeave" ClipToBounds="True">

@@ -13,7 +13,7 @@
                 <RowDefinition Height="470"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <TextBlock Text="KONTROL AYARLARI:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,5,0,0" FontSize="20" TextDecorations="Underline" />
+            <TextBlock  Text="KONTROL AYARLARI:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,5,0,0" FontSize="20" TextDecorations="Underline" />
             <Border Margin="30,35,30,5" BorderThickness="1" BorderBrush="#777777" Background="#151515" Grid.ColumnSpan="2" >
                 <Grid>
                     <Grid.ColumnDefinitions>

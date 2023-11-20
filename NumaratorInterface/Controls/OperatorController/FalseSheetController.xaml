@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:NumaratorInterface.Controls.OperatorController"
              mc:Ignorable="d" 
             Background="#222222" Width="450" >
-    <Border BorderThickness="1" BorderBrush="#777777">
+    <Border BorderThickness="1" BorderBrush= "#777777">
         <Grid>
             <TextBlock Text="HATALI TABAKALAR:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10,0,0" FontSize="20" TextDecorations="Underline" />
             <Border Name="ContainerBorder" Margin="30,35,30,40" BorderThickness="1" BorderBrush="#777777" Background="#151515" >
