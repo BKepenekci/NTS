@@ -8,6 +8,7 @@ namespace NumratorCameraApp
 {
     public class MyAcquisitionParams
     {
+        
         public MyAcquisitionParams()
         {
             m_ServerName = "";
