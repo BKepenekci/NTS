@@ -4,7 +4,7 @@
         xmlns:ReportController="clr-namespace:NumaratorInterface.Controls.ReportController" x:Class="NumaratorInterface.ReportWindow"
         Title="Raporlama Penceresi" Height="1080" Width="1920" Closing="Window_Closing" WindowState="Maximized" Background="#222222" WindowStartupLocation="CenterScreen" WindowStyle="None" >
     <Grid>
-        <Border VerticalAlignment="Top" HorizontalAlignment="Stretch" BorderThickness="1" BorderBrush="White" Height="40" Background="LightGray">
+        <Border  VerticalAlignment="Top" HorizontalAlignment="Stretch" BorderThickness="1" BorderBrush="White" Height="40" Background="LightGray">
 
             <Grid>
                 <TextBlock Text="Raporlama Ekranı" FontSize="25" HorizontalAlignment="Center"  FontWeight="Bold"/>

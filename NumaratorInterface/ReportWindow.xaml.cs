@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Contains "ReportController" UserControl. When it is closed Direct Window is showed.
     // ===============================

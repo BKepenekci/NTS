@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Use this static class for writing a document in *.csv format
     // ===============================

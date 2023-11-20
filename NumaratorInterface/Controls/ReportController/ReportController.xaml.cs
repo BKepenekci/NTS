@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace NumaratorInterface.Controls.ReportController
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU 
+    // AUTHOR      : Sinan KAPOĞLU 
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Gives statistics according to collected datas in DataBase
     // ===============================

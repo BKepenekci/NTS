@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              xmlns:box="clr-namespace:NumaratorInterface.Controls.OperatorController"
              d:DesignHeight="1080" d:DesignWidth="1920" Background="#000000">
-    <Border Margin="5" BorderThickness="1" BorderBrush="#777777" Background="#222222">
+    <Border  Margin="5" BorderThickness="1" BorderBrush="#777777" Background="#222222">
         <Grid Background="#222222">
             <Grid.RowDefinitions>
                 <RowDefinition Height="10"/>
