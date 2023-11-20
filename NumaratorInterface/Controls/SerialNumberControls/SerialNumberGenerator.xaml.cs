@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace NumaratorInterface.Controls.SerialNumberControls
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Creates a sample view of SerialNumberStyle, also holds the SerialNumberStyle object that is to be saved
     // ===============================

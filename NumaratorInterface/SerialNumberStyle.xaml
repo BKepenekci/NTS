@@ -6,7 +6,7 @@
         <Border VerticalAlignment="Top" HorizontalAlignment="Stretch" BorderThickness="1" BorderBrush="White" Height="40" Background="LightGray">
 
             <Grid>
-                <TextBlock Text="Numara Tanımlama Ekranı" FontSize="25" HorizontalAlignment="Center"  FontWeight="Bold"/>
+                <TextBlock  Text="Numara Tanımlama Ekranı" FontSize="25" HorizontalAlignment="Center"  FontWeight="Bold"/>
                 <Image HorizontalAlignment="Left" Source="/Img/logo.png" Margin="2"/>
                 <Image HorizontalAlignment="Right" Source="/Img/logo85siz.png" Margin="0,-8,80,-5"/>
                 <Button Click="CloseButtonClick"  Background="Transparent" Name="CloseButton" Foreground="White" HorizontalAlignment="Right" Margin="0,2,2,0" VerticalAlignment="Top" Width="37" Height="28" FontSize="14">

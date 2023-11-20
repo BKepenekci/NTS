@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : this class is used in sheetSetting. it holds the properties of Sheettype like row, coll number etc.
     // ===============================   

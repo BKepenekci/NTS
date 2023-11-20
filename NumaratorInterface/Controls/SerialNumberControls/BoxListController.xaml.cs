@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace NumaratorInterface.Controls.SerialNumberControls
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU 
+    // AUTHOR      : Sinan KAPOĞLU 
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Controls the properties of BoxList SerialNumberStyle
     // ===============================

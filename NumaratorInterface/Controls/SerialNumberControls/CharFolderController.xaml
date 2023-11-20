@@ -6,7 +6,7 @@
              mc:Ignorable="d" Background="#222222">
     <Border BorderThickness="1" BorderBrush="#777777">
         <Grid>
-            <TextBlock Text="SERİ NUMARASI KARAKTERLERİ:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,30" FontSize="20" TextDecorations="Underline" />
+            <TextBlock  Text="SERİ NUMARASI KARAKTERLERİ:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,30" FontSize="20" TextDecorations="Underline" />
             <Border Margin="30,60,30,20" BorderThickness="1" BorderBrush="#777777">
                 <Grid Background="#151515">
                     <Border Margin="30,30,30,0" VerticalAlignment="Top" Height="80" BorderThickness="1" BorderBrush="#777777">

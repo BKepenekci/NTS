@@ -8,7 +8,7 @@
              d:DesignHeight="300" d:DesignWidth="900" Background="#222222">
     <Border BorderThickness="1" BorderBrush="#777777">
         <Grid>
-            <TextBlock Text="SERİ NUMARASI KONTROL:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,30" FontSize="20" TextDecorations="Underline" />
+            <TextBlock  Text="SERİ NUMARASI KONTROL:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,30" FontSize="20" TextDecorations="Underline" />
             <Border Margin="30,60,30,20" BorderThickness="1" BorderBrush="#777777" Background="#151515">
                 <Grid  Margin="1.2,1.2,-2,-1.2">
                     <Grid.RowDefinitions>

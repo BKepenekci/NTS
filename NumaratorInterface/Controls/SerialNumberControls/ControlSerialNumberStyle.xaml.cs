@@ -17,7 +17,7 @@ using NumaratorInterface.Controls.SerialNumberControls;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Combine UserControls (BoxListController, CharFolderController, DataBaseSerialContoller, SerialNumberGenerator)
     // in one UserControl

@@ -19,7 +19,7 @@ using NationalInstruments.DAQmx;
 namespace NumaratorInterface.Controls.SheetSettingControls
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Combine UserControls (SerialNumberPositionsControl,SheetPropertiesControl , DataBaseSheetSettingContoller)
     // in one UserControl

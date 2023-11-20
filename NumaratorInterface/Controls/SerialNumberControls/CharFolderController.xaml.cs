@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace NumaratorInterface.Controls.SerialNumberControls
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU 
+    // AUTHOR      : Sinan KAPOĞLU 
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Control of Folder which holds the *.png files of Numbers and Letters
     // ===============================

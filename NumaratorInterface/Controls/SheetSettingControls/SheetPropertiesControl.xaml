@@ -6,7 +6,7 @@
              mc:Ignorable="d" Background="#222222" Width="400" Height="321">
     <Border BorderThickness="1" BorderBrush="#777777">
         <Grid >
-            <TextBlock Text="TABAKA ÖZELLİKLERİ:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,30" FontSize="20" TextDecorations="Underline" />
+            <TextBlock  Text="TABAKA ÖZELLİKLERİ:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,30" FontSize="20" TextDecorations="Underline" />
             <Border Margin="30,60,30,40" BorderThickness="1" BorderBrush="#777777" Background="#151515">
                 <Grid>
                     <Grid.ColumnDefinitions>

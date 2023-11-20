@@ -25,7 +25,7 @@ using System.Runtime.InteropServices;
 namespace NumaratorInterface.Controls.SheetSettingControls
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Determines the positions of SerialNumbers, SerialNumber's width, height, Template SubImage, 
     // ===============================

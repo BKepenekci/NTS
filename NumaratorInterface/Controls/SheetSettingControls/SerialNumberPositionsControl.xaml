@@ -9,7 +9,7 @@
              d:DesignHeight="950" d:DesignWidth="1500" KeyDown="UserControl_KeyDown">
     <Border BorderThickness="1" BorderBrush="#777777" Background="#222222">
         <Grid>
-            <TextBlock Text="SERİ NUMARALARI KONUM ÖZELLİKLERİ:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10" FontSize="20" TextDecorations="Underline" />
+            <TextBlock  Text="SERİ NUMARALARI KONUM ÖZELLİKLERİ:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10" FontSize="20" TextDecorations="Underline" />
             <Border Margin="30,40,30,20" BorderThickness="1" BorderBrush="#777777" Background="#151515">
                 <Grid>
                     <Button Name="Vertical" Click="Vertical_Click" Width="20" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.567,0.9" Margin="5,40,0,0">

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:NumaratorInterface"
         mc:Ignorable="d"
         Title="Tabaka Ayarı Kaydet" Height="170" Width="400" ResizeMode="NoResize">
-    <Grid Background="#222222">
+    <Grid  Background="#222222">
         <Grid.RowDefinitions>
             <RowDefinition Height="35"/>
             <RowDefinition Height="1*"/>

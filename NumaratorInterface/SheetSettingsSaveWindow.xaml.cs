@@ -17,7 +17,7 @@ using System.Runtime.InteropServices;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Dialog Window that saves or Replace the SheetSettings.
     // ===============================

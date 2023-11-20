@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace NumaratorInterface.Controls.SheetSettingControls
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Database Controller of SheetSetting, (Delete and load events)
     // ===============================

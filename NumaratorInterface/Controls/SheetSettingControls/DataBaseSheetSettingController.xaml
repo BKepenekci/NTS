@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:NumaratorInterface.Controls.SheetSettingControls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="400" Background="#222222">
-    <Border BorderThickness="1" BorderBrush="#777777">
+    <Border  BorderThickness="1" BorderBrush="#777777">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="100"/>
