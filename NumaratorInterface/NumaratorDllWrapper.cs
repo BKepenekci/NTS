@@ -10,7 +10,7 @@ using System.Windows.Media.Imaging;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Burcu KEPENEKÇİ
+    // AUTHOR      : Burcu KEPENEKÇİ
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Wrapper Class for the codes written in C++ 
     // ===============================
