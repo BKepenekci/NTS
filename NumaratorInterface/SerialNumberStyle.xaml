@@ -1,0 +1,22 @@
+﻿<Window x:Class="NumaratorInterface.SerialNumberStyle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  xmlns:local="clr-namespace:NumaratorInterface"
+        Title="Seri Numarası Stili Belirleme" Background="#222222" Height="1080" Width="1920" WindowState="Maximized" Closing="Window_Closing" WindowStyle="None">
+    <Grid>
+        <Border VerticalAlignment="Top" HorizontalAlignment="Stretch" BorderThickness="1" BorderBrush="White" Height="40" Background="LightGray">
+
+            <Grid>
+                <TextBlock Text="Numara Tanımlama Ekranı" FontSize="25" HorizontalAlignment="Center"  FontWeight="Bold"/>
+                <Image HorizontalAlignment="Left" Source="/Img/logo.png" Margin="2"/>
+                <Image HorizontalAlignment="Right" Source="/Img/logo85siz.png" Margin="0,-8,80,-5"/>
+                <Button Click="CloseButtonClick"  Background="Transparent" Name="CloseButton" Foreground="White" HorizontalAlignment="Right" Margin="0,2,2,0" VerticalAlignment="Top" Width="37" Height="28" FontSize="14">
+                    <Button.Content>
+                        <Image Source="Img/close.png"/>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </Border>
+        <local:ControlSerialNumberStyle Margin="0,100,0,0"/>
+    </Grid>
+ 
+</Window>

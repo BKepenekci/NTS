@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="NumaratorInterface.Controls.SheetSettingControls.SerialNumberPositionsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:WinForms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:WindowsFormsIntegration="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+             mc:Ignorable="d" 
+             d:DesignHeight="950" d:DesignWidth="1500" KeyDown="UserControl_KeyDown">
+    <Border BorderThickness="1" BorderBrush="#777777" Background="#222222">
+        <Grid>
+            <TextBlock Text="SERİ NUMARALARI KONUM ÖZELLİKLERİ:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10" FontSize="20" TextDecorations="Underline" />
+            <Border Margin="30,40,30,20" BorderThickness="1" BorderBrush="#777777" Background="#151515">
+                <Grid>
+                    <Button Name="Vertical" Click="Vertical_Click" Width="20" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.567,0.9" Margin="5,40,0,0">
+                        <TextBlock Text="-" FontSize="30" Height="47" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                            <TextBlock.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="90.192"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </TextBlock.RenderTransform>
+                        </TextBlock>
+                    </Button>
+                    <Button Name="Horizontal" Click="Horizontal_Click" Width="20" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.567,0.9" Margin="5,65,0,0">
+                        <TextBlock Text="-" FontSize="30" Height="47" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                        </TextBlock>
+                    </Button>
+                    <Button Name="detele" Click="detele_Click" Width="20" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.567,0.9" Margin="5,90,0,0">
+                        <TextBlock Text="X" FontSize="20" Height="30" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                        </TextBlock>
+                    </Button>
+                    <!--<TextBlock Text="TABAKA RESMİ" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10" TextDecorations="Underline"/>-->
+                    <Border Margin="30,35,30,50" BorderThickness="1" BorderBrush="#777777" Background="Black">
+                        <Grid Name="TemplateGrid" MouseMove="TemplateGrid_MouseMove" MouseEnter="TemplateGrid_MouseEnter" MouseLeftButtonDown="TemplateGrid_MouseLeftButtonDown" MouseWheel="TemplateGrid_MouseWheel" Background="Black" MouseLeave="TemplateGrid_MouseLeave" ClipToBounds="True">
+                            <StackPanel Name="TemplateStackPanel" >
+                                <Canvas Name="TemplateCanvas" Margin="0,0,0,0">
+                                    <Grid Name="ViewGrid"></Grid>
+                                    <Image Name="BanknoteImg"/>
+                                </Canvas>
+                                <Canvas Name="subImageCanvas">
+
+                                </Canvas>
+                                <Canvas Name="GuideLines">
+
+                                </Canvas>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                    <Button VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="100" Height="25" Margin="30,0,0,12" Content="Resim Al" Click="TakeImage"/>
+                    <Button VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120" Height="25" Margin="150,0,30,12" Content="Konum Kutularını Sil" Click="ClearBoxes"/>
+                    <Button VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="150" Height="25" Margin="150,0,170,12" Content="Konum Kutularını Yerleştir" Click="AddBoxes"/>
+                    <Button VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120" Height="25" Margin="0,0,325,12" Content="Otomatik Konum Bul" Click="AutoFindPositions"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</UserControl>

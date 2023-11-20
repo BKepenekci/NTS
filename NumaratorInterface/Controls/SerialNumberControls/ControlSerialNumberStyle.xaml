@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="NumaratorInterface.ControlSerialNumberStyle"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:NumaratorInterface"
+             xmlns:box="clr-namespace:NumaratorInterface.Controls.SerialNumberControls"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <Grid Background="#222222">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="460"/>
+                <RowDefinition Height="400"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid Name="BoxListGrid">
+                <box:BoxListController x:Name="boxlcontroller" Margin="5,5,5,0" VerticalAlignment="Top" Height="445"/>
+            </Grid>
+            <Grid Name="CharGrid" Grid.Row="1">
+                <box:CharFolderController x:Name="FolderController" VerticalAlignment="Top" Height="380" Margin="5,5,5,0"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Button Content="Kaydet" Width="100" Height="30" FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,0,30,0" Click="SaveClick"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="350"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <box:SerialNumberGenerator Height="335" Grid.Row="0" VerticalAlignment="Top" Margin="5,5,5,0" x:Name="Generator"/>
+            <Grid Grid.Row="1">
+                <box:DatabaseSerialKontroller x:Name="DatabaseController" Margin="5,0,5,0" VerticalAlignment="Top" Height="495" />
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

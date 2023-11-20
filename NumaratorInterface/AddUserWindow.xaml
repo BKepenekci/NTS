@@ -1,0 +1,26 @@
+﻿<Window x:Class="NumaratorInterface.AddUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Yeni Kullanıcı Ekle" Height="350" Width="589" Background="#222222">
+    <Grid>
+        <Border VerticalAlignment="Center" HorizontalAlignment="Center" Name="newUser" Width="400" Height="283" BorderThickness="5" BorderBrush="Orange" >
+            <Grid>
+                <TextBlock Text="YENİ KULLANICI" Height="22" Foreground="White" FontSize="16" VerticalAlignment="Top" Width="125" Margin="0,30,0,0"/>
+                <TextBlock Text="Kullanıcı Adı :" Height="22" Width="110" Foreground="White" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,62,0,0" />
+                <TextBox  Name="UserName" Width="200" Background="#333333" BorderBrush="#555555" Foreground="White" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,62,30,0"/>
+                <TextBlock Text="Şifre :" Width="110" Height="22" Foreground="White" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,148,0,0" RenderTransformOrigin="0.5,0.5" />
+                <TextBlock Text="Şifre Tekrar:" Width="110" Height="22" Foreground="White" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,177,0,0" RenderTransformOrigin="0.5,0.5" />
+                <TextBlock Text="Kullanıcı Tipi:" Width="110" Height="22" Foreground="White" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,97,0,0" RenderTransformOrigin="0.5,0.5" />
+                <PasswordBox Name="pw1" Width="200" Background="#333333" BorderBrush="#555555" Foreground="White" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,146,30,0"/>
+                <PasswordBox Name="pw2" Width="200" Background="#333333" BorderBrush="#555555" Foreground="White" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,175,30,0"/>
+                <Button Width="100" Height="25" Content="Kullanıcı Oluştur" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="68,226,0,0" Click="AddUser"/>
+                <Button Width="100" Height="25" Content="İptal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="216,226,0,0" Click="Cancel"/>
+                <ComboBox Name="usertypes" HorizontalAlignment="Left" Margin="160,97,0,0" VerticalAlignment="Top" Width="120">
+                    <ComboBoxItem Content="Operatör"/>
+                    <ComboBoxItem Content="Admin"/>
+                    <ComboBoxItem Content="Servis"/>
+                </ComboBox>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

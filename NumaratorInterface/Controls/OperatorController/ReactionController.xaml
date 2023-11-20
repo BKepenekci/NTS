@@ -1,0 +1,128 @@
+﻿<UserControl x:Class="NumaratorInterface.Controls.OperatorController.ReactionController"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Background="#222222" Width="455" Height="170">
+    <Border BorderThickness="1" BorderBrush="#777777">
+        <Grid Margin="0,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock Text="HATA TEPKİ AYARLARI:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10,0,0" FontSize="20" TextDecorations="Underline" />
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="87*"/>
+
+                </Grid.RowDefinitions>
+                <Border Margin="30,0,30,5" BorderThickness="1" BorderBrush="#777777" Background="#151515" Grid.RowSpan="1" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="0"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Hata Tipi" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0" />
+                        <TextBlock Text="Durdur" FontSize="16" Grid.Column="1" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                        <TextBlock Text="Uyar" FontSize="16" Grid.Column="2" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        <TextBlock Text="Yoksay" FontSize="16" Grid.Column="3" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Text="Hatalı Numara" FontSize="16" Grid.Row="1" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,5,0,0" />
+                        <Path Grid.Row="1" Stroke="White" Fill="Red">
+                            <Path.Data>
+                                <RectangleGeometry Rect="130,8,15,15"/>
+                            </Path.Data>
+                        </Path>
+                        <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <RadioButton Name="FStopCB" Width="15" Height="15" Margin="35,8,29,7"  IsChecked="True" Checked="FStopCB_Checked"/>
+                            <RadioButton Name="FWarnCB" Grid.Column="1" Width="15" Height="15" Margin="35,8,29,7" Checked="FWarnCB_Checked" Visibility="Collapsed"/>
+                        </Grid>
+                        <TextBlock Text="Kelek\Eksik" FontSize="16" Grid.Row="2" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,5,0,0" />
+                        <Path Grid.Row="2" Stroke="White" Fill="Yellow" >
+                            <Path.Data>
+                                <RectangleGeometry Rect="130,8,15,15"/>
+                            </Path.Data>
+                        </Path>
+                        <Grid Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <RadioButton Name="WStopCB" Width="15" Height="15" Margin="35,8,29,7" Checked="WStopCB_Checked" />
+                            <RadioButton Name="WWarnCB" Grid.Column="1" Width="15" Height="15" IsChecked="True" Margin="35,8,29,7" Checked="WWarnCB_Checked"/>
+                            <RadioButton Name="WIgnoreCB" Grid.Column="2" Width="15" Height="15" Margin="35,8,29,7" Checked="WIgnoreCB_Checked"/>
+                        </Grid>
+
+                        <TextBlock Text="Çapak" FontSize="16" Grid.Row="3" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,5,0,0" />
+                        <Path Grid.Row="3" Stroke="White" Fill="Violet" Grid.RowSpan="3">
+                            <Path.Data>
+                                <RectangleGeometry Rect="130,8,15,15"/>
+                            </Path.Data>
+                        </Path>
+                        <Grid Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <RadioButton Name="EStopCB" Width="15" Height="15" Margin="35,8,29,7" Checked="EStopCB_Checked" />
+                            <RadioButton Name="EWarnCB" Grid.Column="1" Width="15" Height="15" IsChecked="True" Margin="35,8,29,7" Checked="EWarnCB_Checked"/>
+                            <RadioButton Name="EIgnoreCB" Grid.Column="2" Width="15" Height="15" Margin="35,8,29,7" Checked="EIgnoreCB_Checked"/>
+                        </Grid>
+
+                        <TextBlock Text="Konum" FontSize="16" Grid.Row="4" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,5,0,0" />
+                        <Path Grid.Row="4" Stroke="White" Fill="Blue" >
+                            <Path.Data>
+                                <RectangleGeometry Rect="130,8,15,15"/>
+                            </Path.Data>
+                        </Path>
+                        <Grid Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <RadioButton Name="PStopCB" Width="15" Height="15" Margin="35,8,29,7" Checked="PStopCB_Checked" />
+                            <RadioButton Name="PWarnCB" Grid.Column="1" Width="15" Height="15" IsChecked="True" Margin="35,8,29,7" Checked="PWarnCB_Checked"/>
+                            <RadioButton Name="PIgnoreCB" Grid.Column="2" Width="15" Height="15" Margin="35,8,29,7" Checked="PIgnoreCB_Checked"/>
+                        </Grid>
+
+                        <TextBlock Visibility="Collapsed" Text="Eksik Numara" FontSize="16" Grid.Row="5" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,5,0,0" />
+                        <Path Visibility="Collapsed" Grid.Row="5" Stroke="White" Fill="DarkGray" >
+                            <Path.Data>
+                                <RectangleGeometry Rect="130,8,15,15"/>
+                            </Path.Data>
+                        </Path>
+                        <Grid Visibility="Collapsed" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <RadioButton Name="MStopCB"  Width="15" Height="15" Margin="35,8,29,7" Checked="MStopCB_Checked" />
+                            <RadioButton Name="MWarnCB" Grid.Column="1" Width="15" Height="15" IsChecked="True" Margin="35,8,29,7" Checked="MWarnCB_Checked"/>
+                            <RadioButton Name="MIgnoreCB" Grid.Column="2" Width="15" Height="15" Margin="35,8,29,7" Checked="MIgnoreCB_Checked"/>
+                        </Grid>
+
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

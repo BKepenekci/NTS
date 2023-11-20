@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="NumaratorInterface.Controls.OperatorController.ImageViewerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NumaratorInterface.Controls.OperatorController"
+             xmlns:WinForms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:WindowsFormsIntegration="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+             mc:Ignorable="d" 
+             d:DesignHeight="950" d:DesignWidth="1500">
+    <Border BorderThickness="1" BorderBrush="#777777" Background="#222222">
+        <Grid>
+            <!--<TextBlock Text="TABAKA RESMİ" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,5" FontSize="20" TextDecorations="Underline" />-->
+            <Border Margin="15,15,15,15" BorderThickness="1" BorderBrush="#777777" Background="#151515">
+                <Grid>
+                    <!--<TextBlock Text="TABAKA RESMİ" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10" TextDecorations="Underline"/>-->
+                    <Border Margin="0,0,0,0" BorderThickness="1" BorderBrush="#777777" Background="Black">
+                        <Viewbox>
+                            <Grid Name="TemplateGrid"  Background="Black"  ClipToBounds="True">
+                            <!--<Viewbox>
+                                <Image Name="DisplayWnd"/>
+                            </Viewbox>-->
+                            </Grid>
+                        </Viewbox>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</UserControl>
