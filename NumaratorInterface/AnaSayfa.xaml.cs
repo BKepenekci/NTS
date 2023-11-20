@@ -17,7 +17,7 @@ using NationalInstruments.DAQmx;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR      : Sinan KAPOĞLU
+    // AUTHOR       : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Direct Window has four link for Operator, Report, SerialNumberStyle and SheetSetting Window
     // ===============================
