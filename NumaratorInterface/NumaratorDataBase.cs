@@ -14,7 +14,7 @@ namespace NumaratorInterface
 
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR     :  Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Interface for MySQL Database Functions
     // ===============================
