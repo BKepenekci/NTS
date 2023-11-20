@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Operatör Ekranı" Height="1080" Width="1920" WindowState="Maximized" Closing="Window_Closing"
          xmlns:box="clr-namespace:NumaratorInterface.Controls.OperatorController" WindowStyle="None">
-    <Grid Background="#222222">
+    <Grid  Background="#222222">
         <Border VerticalAlignment="Top" HorizontalAlignment="Stretch" BorderThickness="1" BorderBrush="White" Height="40" Background="LightGray">
 
             <Grid>

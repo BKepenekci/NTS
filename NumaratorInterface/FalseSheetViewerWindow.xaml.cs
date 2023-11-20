@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace NumaratorInterface
 {
     /// <summary>
-    /// Interaction logic for FalseSheetViewerWindow.xaml
+    ///  Interaction logic for FalseSheetViewerWindow.xaml
     /// </summary>
     public partial class FalseSheetViewerWindow : Window
     {

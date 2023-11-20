@@ -8,7 +8,7 @@ using System.Windows.Controls;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Holds the data( FrameResult, Settings, imageWidth, imageHeight) if any FrameResult object contains data that is not 1
     //               wrap that result using this class.

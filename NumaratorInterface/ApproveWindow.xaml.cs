@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Sinan KAPOĞLU
+    // AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : This Window is used as a dialog. is Called when it is required to take user's aproval. Pop's up a warning message and
     //               ask user to proceed or not

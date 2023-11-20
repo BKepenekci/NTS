@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Onay Penceresi" Height="111" Width="403" ResizeMode="NoResize">
     <Grid>
-        <TextBlock Name="WarningText" Text="Warning" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="12" FontStyle="Normal" Margin="0,15"/>
+        <TextBlock  Name="WarningText" Text="Warning" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="12" FontStyle="Normal" Margin="0,15"/>
         <Button Content="EVET" HorizontalAlignment="Left" Margin="211,40,0,10" VerticalAlignment="Bottom" Width="75"  Click="OKClick"/>
         <Button Content="HAYIR" HorizontalAlignment="Left" Margin="291,40,0,10" VerticalAlignment="Bottom" Width="75"  Click="CancelClick"/>
     </Grid>

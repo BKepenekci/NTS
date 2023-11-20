@@ -16,7 +16,7 @@ using System.Drawing;
 namespace NumaratorInterface
 {
     // ===============================
-    // AUTHOR     : Burcu KEPENEKÇİ, 
+    // AUTHOR      : Burcu KEPENEKÇİ, 
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : ProcessControl class is derived from SapProcessing. it is used for control the process of taken image from camera 
     // ===============================
