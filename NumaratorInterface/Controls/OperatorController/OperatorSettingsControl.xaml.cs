@@ -22,7 +22,7 @@ using NationalInstruments.DAQmx;
 namespace NumaratorInterface.Controls.OperatorController
 {
     // ===============================
-    // AUTHOR      : Sinan KAPOĞLU
+    //  AUTHOR      : Sinan KAPOĞLU
     // UPDATE DATE     : 20.08.2016
     // PURPOSE     : Heart of the Operator Window. 
     // it holds the inital parameters (Başlangıç Seri No, Sıra No, Tabaka Ayarı, etc)
