@@ -11,7 +11,7 @@ namespace NumaratorInterface
 {
     // ===============================
     // AUTHOR      : Burcu KEPENEKÇİ
-    // UPDATE DATE     : 20.08.2016
+    // UPDATE D ATE     : 20.08.2016
     // PURPOSE     : Wrapper Class for the codes written in C++ 
     // ===============================
     public class LocSerialPair
