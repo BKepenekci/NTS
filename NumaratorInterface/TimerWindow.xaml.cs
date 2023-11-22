@@ -16,7 +16,7 @@ using System.Timers;
 namespace NumaratorInterface
 {
     /// <summary>
-    ///  Interaction logic for TimerWindow.xaml
+    ///  Intera ction logic for TimerWindow.xaml
     /// </summary>
     public partial class TimerWindow : Window
     {
