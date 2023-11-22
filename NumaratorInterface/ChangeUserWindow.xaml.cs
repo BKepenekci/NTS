@@ -16,7 +16,7 @@ namespace NumaratorInterface
 {
     // ===============================
     // AUTHOR      : Sinan KAPOĞLU
-    // UPDATE DATE     : 20.08.2016
+    // UPDATE DATxE     : 20.08.2016
     // PURPOSE     : Dialog Window that changes the User Type. User is Required to enter username and Password.
     // ===============================
     public partial class ChangeUserWindow : Window
